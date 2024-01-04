@@ -4,6 +4,8 @@ In this guide, we'll be taking our favorite music and importing it to Need for S
 
 This guide is designed with complete beginners in mind, hand-holding the reader every step of the way. If you're skilled enough at Frosty Editor and simply want a quick summary of what do, [click here!](https://github.com/KingJackSkellington/nfs-rivals-custom-music/blob/main/Quick%20Summary.md)
 
+A quick Q&A can be found [here!](https://github.com/KingJackSkellington/nfs-rivals-custom-music/blob/main/Q%26A.md)
+
 -----
 
 ## Tools Required
