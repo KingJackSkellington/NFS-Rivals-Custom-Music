@@ -212,7 +212,9 @@ Now that the project is saved, we'll export these modified files into a mod file
   - Note: while only the first field is mandatory to fill out, fill out as much of this information as you can if you plan on releasing any mod in general.
   
 <img title="" src="images/36.png" alt="36.png" width="788" data-align="center">
-  
+
+<img title="" src="images/43.png" alt="43.png" width="788" data-align="center">
+
 <img title="" src="images/37.png" alt="37.png" width="690" data-align="center">
 
 -----
