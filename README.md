@@ -28,13 +28,14 @@ This guide is designed with complete beginners in mind, hand-holding the reader 
 <img title="" src="images/8.png" alt="8.png" width="709" data-align="center">
 
 3. Run the command: dandev-el3.exe inputfile (replace inputfile with the file name of the exported Audacity audio).
-   * *Example: dandev-el3.exe Test48k.mp3*
-   * Note 1: If your file has a space in its title, use quotation marks around the filename on the command ("Test 48k.mp3", for example.)
+   * *Example: dandev-el3.exe TestMP3.mp3*
+   * Note 1: If your file has a space in its title, use quotation marks around the filename on the command ("Test MP3.mp3", for example.)
+   * Note 2: If your file is not in the same location as the dandev-el3.exe, simply drag-and-drop it into the Command Prompt and it will automatically generate the name alongside its location (dandev-el3.exe "F:\Audio Import\TestMP3.mp3", for example)
 
 <img title="" src="images\9.png" alt="9.png" width="714" data-align="center">
 
 4. A **new file** with the **.ealayer3 extension** will appear, this new file is what we will be importing to Frosty Editor.
-   * *Example: Test48k.ealayer3*
+   * *Example: TestMP3.ealayer3*
    * Note the results for **ChunkSize** and **SegmentLength** that the tool gives here, as we will need these values later.
 
 <img title="" src="images\10.png" alt="10.png" width="230" data-align="center">
@@ -80,12 +81,12 @@ NOTE: Any changes that we do while on Frosty Editor are completely temporary, so
 <img title="" src="images/16.png" alt="16.png" width="656" data-align="center">
 
    * Here, navigate to where the **.ealayer3 file** is located and import this file.
-   * *Example: Test48k.ealayer3*
+   * *Example: TestMP3.ealayer3*
 
 <img title="" src="images/17.png" alt="17.png" width="683" data-align="center">
 
 4. In the properties of the file on the right side, expand the **Chunks** property, expand the **[0]** entry, and validate that the **ChunkSize** value here **matches** the ChunkSize value from the bf2-sound-import results on the Command Prompt window. If not, input that value here.
-   * Example: ChunkSize: 10178453
+   * Example: ChunkSize: 12318377
 
 <img src="images/18.png" title="" alt="18.png" data-align="center">
 
@@ -98,7 +99,7 @@ NOTE: Any changes that we do while on Frosty Editor are completely temporary, so
    * If the **SamplesOffset** value is **anything other than 0**, edit the value and set it to 0.
    * If the **SeekTableOffset** has a value of **0**, edit the value and set it to the following value: **4294967295**
    * Edit the **SegmentLength** value with the SegmentLength value from the bf2-sound-import results on the Command Prompt window.
-   * *Example: SegmentLength: 270.67*
+   * *Example: SegmentLength: 302.66*
    
 <img title="" src="images/20.png" alt="20.png" width="668" data-align="center">
 
