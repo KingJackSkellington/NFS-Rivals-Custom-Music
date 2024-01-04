@@ -6,7 +6,7 @@ This guide is designed with complete beginners in mind, hand-holding the reader 
 
 -----
 
-## Tools Required:
+## Tools Required
 
 - **Audio Editing Software** (this tutorial will be using Audacity, but the Audacity Steps should be applicable to most audio editing software, such as Tenacity.)
 - **[bf2-sound-import](https://github.com/DanielElam/bf2-sound-import/releases)** (Download FrostySoundImport-1.3.3.3.zip and extract the files "**dandev-el3.exe**" and "**libmpg123-0.dll**" from the .zip file to a new folder)
@@ -36,7 +36,7 @@ While this guide focuses on Audacity, you should be good to follow along with an
    
 <img title="" src="images\4.png" alt="4.png" width="649" data-align="center">
 
-4. Use the following settings:
+4. Use the following settings
    - Export the audio file to the location where bf2-sound-import is extracted to for ease of access.
    - Name the exported file to any name you wish; for this example we will be using **Test48k** as the name.
    - Set the **bit rate mode** to **Constant**.
@@ -52,7 +52,7 @@ Before adding it to the game, we'll first convert this new MP3 file to an **EALA
 
 ---
 
-## bf2-sound-import/dandev-el3.exe Steps:
+## bf2-sound-import/dandev-el3.exe Steps
 
 1. Open File Explorer and navigate to the folder where you have **dandev-el3.exe and libmpg123-0.dll** extracted to.
    
@@ -92,7 +92,7 @@ NOTE: Any changes that we do while on Frosty Editor are completely temporary, so
 
 ---
 
-## Frosty Editor pt. 1 - SoundWaveAsset:
+## Frosty Editor pt. 1 - SoundWaveAsset
 
 - Note: refer to this video to set-up Frosty Editor for the first time: https://www.youtube.com/watch?v=i2PceQ1-sJI&t=54s
 - The chapters "Setting up Frosty Editor", "Locating your game manually", and "Brief editor overview" are the only ones you need to watch to get a quick overview of Frosty Editor.
@@ -140,7 +140,7 @@ Now that we have the audio file in the game, we'll need to point the Frostbite E
 
 ---
 
-## Frosty Editor pt. 2 - MusicAsset:
+## Frosty Editor pt. 2 - MusicAsset
 
 1. In the Data Explorer, navigate to Audio\Music\Licensed and duplicate a **MusicAsset** file, rename it to the new track, and add/keep the **_MusicAsset** suffix.
    * Example: Test_MusicAsset
@@ -193,7 +193,7 @@ Finally, we'll be editing one final file to get our music into the rotation. Alm
 
 ---
 
-## Frosty Editor pt. 3 - FreedrivePlaylist:
+## Frosty Editor pt. 3 - FreedrivePlaylist
 
 1. Under Audio\Music\Licensed, open the **FreedrivePlaylist** file.
    
