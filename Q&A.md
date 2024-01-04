@@ -9,3 +9,6 @@
 -----
 ## "I have multiple music mods installed. Will they all play?"
 * No. Frosty Mod Manager will only play the music mod that is highest in the load order, and will discard the rest.
+-----
+## "How many music files can we add to the playlist?"
+* I personally haven't experimented yet, but Frosty Editor does allow you to add more items to the original playlist. Whether or not the game reads it is another story. 
