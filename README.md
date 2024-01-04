@@ -8,7 +8,7 @@ This guide is designed with complete beginners in mind, hand-holding the reader 
 
 ## Tools Required
 
-- (Optional) **Audio Editing Software** (in the event that your audio file isn't an MP3, follow this quick guide to convert your music of choice into an MP3 file.)
+- (Optional) **Audio Editing Software** (in the event that your audio file isn't an MP3, [follow this quick guide](https://github.com/KingJackSkellington/nfs-rivals-custom-music/edit/main/Audacity%20Steps.md) to convert your music of choice into an MP3 file.)
 - **[bf2-sound-import](https://github.com/DanielElam/bf2-sound-import/releases)** (Download FrostySoundImport-1.3.3.3.zip and extract the files "**dandev-el3.exe**" and "**libmpg123-0.dll**" from the .zip file to a new folder)
 - **[Frosty Editor](https://github.com/CadeEvs/FrostyToolsuite/releases)** (Download the FrostyEditor.zip file and extract its contents to a new folder)
 - **[Frosty Mod Manager](https://github.com/CadeEvs/FrostyToolsuite/releases)** (Download the FrostyModManager.zip file and extract its contents to a new folder)
