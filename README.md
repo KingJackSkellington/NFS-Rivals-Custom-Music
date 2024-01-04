@@ -95,7 +95,9 @@ NOTE: Any changes that we do while on Frosty Editor are completely temporary, so
 ## Frosty Editor pt. 1 - SoundWaveAsset
 
 - Note: refer to this video to set-up Frosty Editor for the first time: https://www.youtube.com/watch?v=i2PceQ1-sJI&t=54s
+
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=i2PceQ1-sJI" target="_blank"><img src="http://img.youtube.com/vi/i2PceQ1-sJI/0.jpg" alt="How to make mods with Frosty Editor | Frosty Editor tutorial" width="480" height="360" border="10" /></a>
+
 - The chapters "Setting up Frosty Editor", "Locating your game manually", and "Brief editor overview" are the only ones you need to watch to get a quick overview of Frosty Editor.
 1. Once you have set up Frosty Editor, navigate to Audio\Music\Licensed in the Data Explorer.
    
