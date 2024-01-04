@@ -29,7 +29,7 @@ A quick Q&A can be found [here!](https://github.com/KingJackSkellington/nfs-riva
    
 <img title="" src="images/8.png" alt="8.png" width="709" data-align="center">
 
-3. Run the command: dandev-el3.exe inputfile (replace inputfile with the file name of the exported Audacity audio).
+3. Run the command: dandev-el3.exe inputfile (replace inputfile with the file name of the audio you wish to convert).
    * *Example: dandev-el3.exe TestMP3.mp3*
    * Note 1: If your file has a space in its title, use quotation marks around the filename on the command ("Test MP3.mp3", for example.)
    * Note 2: If your file is not in the same location as the dandev-el3.exe, simply drag-and-drop it into the Command Prompt and it will automatically generate the name alongside its location (dandev-el3.exe "F:\Audio Import\TestMP3.mp3", for example)
