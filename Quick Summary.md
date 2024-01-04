@@ -3,29 +3,20 @@
 Tl;dr:
 
 1. Have or make an MP3 file that is:
-   
    * Sampled at 48000Hz
-   
    * Has a constant bit rate of choice (320kbps preferrably), and
-   
    * In mono channel.
 
 2. Convert the MP3 file to EALAYER3 using **bf2-sound-import's** **dandev-el3.exe** and note down the results for **ChunkSize** and **SegmentLength**.
 
 3. In Frosty Editor, duplicate a **SoundWaveAsset** file and import the EALAYER3 file.
-   
    * Check that **ChunkSize** value matches the output for **dandev-el3.exe**.
-   
    * Set the value for **Selection** to **SoundWaveVariationSelection_Random**.
-   
    * If the **SamplesOffset** value is **anything other than 0**, edit the value and set it to 0.
-   
    * If the **SeekTableOffset** has a value of **0**, edit the value and set it to the following value: **4294967295**
-   
    * Edit the **SegmentLength** value with the SegmentLength value from the **dandev-el3.exe** results.
 
 4. Duplicate a **MusicAsset** file.
-   
    * Edit the **NameHash** value to a unique 10-digit number.
    * Edit the **Title** and **Artist** vales accordingly.
    * Under the **Playables > [0]** property, paste the name of your MusicAsset in **Id** and **Name**.
