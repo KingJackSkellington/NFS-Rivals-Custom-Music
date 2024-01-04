@@ -8,47 +8,10 @@ This guide is designed with complete beginners in mind, hand-holding the reader 
 
 ## Tools Required
 
-- **Audio Editing Software** (this tutorial will be using Audacity, but the Audacity Steps should be applicable to most audio editing software, such as Tenacity.)
+- (Optional) **Audio Editing Software** (in the event that your audio file isn't an MP3, follow this quick guide to convert your music of choice into an MP3 file.)
 - **[bf2-sound-import](https://github.com/DanielElam/bf2-sound-import/releases)** (Download FrostySoundImport-1.3.3.3.zip and extract the files "**dandev-el3.exe**" and "**libmpg123-0.dll**" from the .zip file to a new folder)
 - **[Frosty Editor](https://github.com/CadeEvs/FrostyToolsuite/releases)** (Download the FrostyEditor.zip file and extract its contents to a new folder)
 - **[Frosty Mod Manager](https://github.com/CadeEvs/FrostyToolsuite/releases)** (Download the FrostyModManager.zip file and extract its contents to a new folder)
-
------
-
-## Audacity Steps
-
-For this guide, we'll be using Audacity to re-encode our music to various specifications for the game to use.
-
-While this guide focuses on Audacity, you should be good to follow along with any half-decent audio editing software.
-
-1. Open Audacity and import your music of choice.
-   
-<img title="" src="images/1.png" alt="" width="731" data-align="center">
-
-2. If your music is not sampled to 48KHz, you **must** resample it to 48KHz.
-   - **Select** the track, on the top go to **Tracks** > **Resample**, choose **48000** as the new value, and hit **OK**.
-
-<img title="" src="images/2.png" alt="" width="695" data-align="center">
-
-<img title="" src="images/3.png" alt="" width="661" data-align="center">
-
-3. Once the music is resampled to 48khz (or is already sampled to 48k beforehand), export as an MP3 file by going to **File** > **Export** > **Export as MP3**
-   
-<img title="" src="images\4.png" alt="4.png" width="649" data-align="center">
-
-4. Use the following settings
-   - Export the audio file to the location where bf2-sound-import is extracted to for ease of access.
-   - Name the exported file to any name you wish; for this example we will be using **Test48k** as the name.
-   - Set the **bit rate mode** to **Constant**.
-   - Pick a Quality of choice (e.g., 320kbps).
-   - Tick "**Force export to mono**" under channel mode.
-   - Export!
-   
-<img title="" src="images/5.png" alt="5.png" width="689" data-align="center">
-
-You should now have a newly-created MP3 file that the game can play without issues... sort of.
-
-Before adding it to the game, we'll first convert this new MP3 file to an **EALAYER3** file that the game can recognize.
 
 ---
 
