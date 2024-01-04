@@ -2,10 +2,7 @@
 
 Tl;dr:
 
-1. Have or make an MP3 file that is:
-   * Sampled at 48000Hz
-   * Has a constant bit rate of choice (320kbps preferrably), and
-   * In mono channel.
+1. Have (or make) an MP3 file.
 
 2. Convert the MP3 file to EALAYER3 using **bf2-sound-import's** **dandev-el3.exe** and note down the results for **ChunkSize** and **SegmentLength**.
 
