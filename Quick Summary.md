@@ -24,7 +24,6 @@ Tl;dr:
    * Under **Selectors > [0] > Target**, paste the name of your MusicAsset in **Id** and **Name**.
 
 5. Open the **FreedrivePlaylist** file and under **Assets**, either:
-   
    * Delete the original playlist and add a new item to **Assets**, and assign the (null) item with your **MusicAsset**, 
    
    * OR
