@@ -65,13 +65,13 @@ Before adding it to the game, we'll first convert this new MP3 file to an **EALA
 <img title="" src="images/8.png" alt="8.png" width="709" data-align="center">
 
 3. Run the command: dandev-el3.exe inputfile (replace inputfile with the file name of the exported Audacity audio).
-   * Example: dandev-el3.exe Test48k.mp3
+   * *Example: dandev-el3.exe Test48k.mp3*
    * Note 1: If your file has a space in its title, use quotation marks around the filename on the command ("Test 48k.mp3", for example.)
 
 <img title="" src="images\9.png" alt="9.png" width="714" data-align="center">
 
 4. A **new file** with the **.ealayer3 extension** will appear, this new file is what we will be importing to Frosty Editor.
-   * Example: Test48k.ealayer3
+   * *Example: Test48k.ealayer3*
    * Note the results for **ChunkSize** and **SegmentLength** that the tool gives here, as we will need these values later.
 
 <img title="" src="images\10.png" alt="10.png" width="230" data-align="center">
@@ -95,13 +95,14 @@ NOTE: Any changes that we do while on Frosty Editor are completely temporary, so
 ## Frosty Editor pt. 1 - SoundWaveAsset
 
 - Note: refer to this video to set-up Frosty Editor for the first time: https://www.youtube.com/watch?v=i2PceQ1-sJI&t=54s
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=i2PceQ1-sJI" target="_blank"><img src="http://img.youtube.com/vi/i2PceQ1-sJI/0.jpg" alt="How to make mods with Frosty Editor | Frosty Editor tutorial" width="480" height="360" border="10" /></a>
 - The chapters "Setting up Frosty Editor", "Locating your game manually", and "Brief editor overview" are the only ones you need to watch to get a quick overview of Frosty Editor.
 1. Once you have set up Frosty Editor, navigate to Audio\Music\Licensed in the Data Explorer.
    
 <img src="images\12.png" title="" alt="12.png" data-align="center">
 
 2. On the bottom left, the files that are in the Licensed folder will appear. Right-click on a SoundWaveAsset file and click on Duplicate, and rename the duplicated file to the new track.
-   * Example: Test
+   * *Example: Test*
 
 <img src="images\13.png" title="" alt="13.png" data-align="center">
 
@@ -114,7 +115,7 @@ NOTE: Any changes that we do while on Frosty Editor are completely temporary, so
 <img title="" src="images/16.png" alt="16.png" width="656" data-align="center">
 
    * Here, navigate to where the **.ealayer3 file** is located and import this file.
-   * Example: Test48k.ealayer3
+   * *Example: Test48k.ealayer3*
 
 <img title="" src="images/17.png" alt="17.png" width="683" data-align="center">
 
@@ -132,7 +133,7 @@ NOTE: Any changes that we do while on Frosty Editor are completely temporary, so
    * If the **SamplesOffset** value is **anything other than 0**, edit the value and set it to 0.
    * If the **SeekTableOffset** has a value of **0**, edit the value and set it to the following value: **4294967295**
    * Edit the **SegmentLength** value with the SegmentLength value from the bf2-sound-import results on the Command Prompt window.
-   * Example: SegmentLength: 270.67
+   * *Example: SegmentLength: 270.67*
    
 <img title="" src="images/20.png" alt="20.png" width="668" data-align="center">
 
@@ -143,7 +144,7 @@ Now that we have the audio file in the game, we'll need to point the Frostbite E
 ## Frosty Editor pt. 2 - MusicAsset
 
 1. In the Data Explorer, navigate to Audio\Music\Licensed and duplicate a **MusicAsset** file, rename it to the new track, and add/keep the **_MusicAsset** suffix.
-   * Example: Test_MusicAsset
+   * *Example: Test_MusicAsset*
 
 <img title="" src="images/21.png" alt="21.png" width="644" data-align="center">
 
@@ -155,11 +156,11 @@ Now that we have the audio file in the game, we'll need to point the Frostbite E
 
 3. Modify the NameHash to a **unique 10-digit numerical value**. (or just mash your numpad until you get 10 digits.)
    
-   * Example: 1111111111
+   * *Example: 1111111111*
 
 4. Edit the **Title** and **Artist** values accordingly; the title and artist will show up in-game.
    
-   * Example: Title/Artist
+   * *Example: Title/Artist*
    
 <img title="" src="images/24.png" alt="24.png" data-align="center" width="711">
 
